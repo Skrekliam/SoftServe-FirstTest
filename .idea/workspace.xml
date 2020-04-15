@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="da91fee0-268a-4517-84c3-c3a7200381ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/VisaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Новый текстовый документ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VisaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VisaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,8 @@
       <workItem from="1586892310886" duration="353000" />
       <workItem from="1586893856723" duration="6555000" />
       <workItem from="1586955167721" duration="654000" />
-      <workItem from="1586980485967" duration="3813000" />
+      <workItem from="1586980485967" duration="6042000" />
+      <workItem from="1586987960511" duration="685000" />
     </task>
     <servers />
   </component>
@@ -80,33 +84,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1586955859423">
+    <state width="1396" height="217" key="GridCell.Tab.0.bottom" timestamp="1586988837798">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586955859423" />
-    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1586955859422">
+    <state width="1396" height="217" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586988837798" />
+    <state width="1396" height="217" key="GridCell.Tab.0.center" timestamp="1586988837798">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586955859422" />
-    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1586955859422">
+    <state width="1396" height="217" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586988837798" />
+    <state width="1396" height="217" key="GridCell.Tab.0.left" timestamp="1586988837798">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586955859422" />
-    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1586955859423">
+    <state width="1396" height="217" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586988837798" />
+    <state width="1396" height="217" key="GridCell.Tab.0.right" timestamp="1586988837798">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586955859423" />
-    <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586980494869">
+    <state width="1396" height="217" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586988837798" />
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586987985497">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586980494869" />
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586987985497" />
     <state x="739" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586983905090">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="739" y="58" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1586983905090" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1586897176578">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1586985662177">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1586897176578" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1586985662177" />
   </component>
 </project>

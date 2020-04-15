@@ -8,18 +8,31 @@ public class HomePage extends BaseClass {
 
     @FindBy(xpath = "//a[@href = '#visa']")
     private WebElement visaContainerButton;
+
     @FindBy(xpath = "//*[@name = 'nationality_country']/..//input")
     private WebElement fromCountryField;
-    @FindBy(xpath = "//label[text() = 'From Country']/..//a")
+
+    @FindBy(xpath = "//*[@class='active-result highlighted']")
     private WebElement selectFromCountry;
+
     @FindBy(xpath = "//label[text() = 'To Country']/..//input")
     private WebElement toCountryField;
-    @FindBy(xpath = "//label[text() = 'To Country']/..//a")
+
+    @FindBy(xpath = "//*[@class='active-result highlighted']")
     private WebElement selectToCountry;
+
     @FindBy(name = "date")
     private WebElement dateField;
+
     @FindBy(xpath = "//button[contains(text(),'Submit')]")
     private WebElement submitButton;
+
+    @FindBy(xpath = "//label[text() = 'From Country']/..//a/span")
+    private WebElement fromCountryDiv;
+
+    @FindBy(xpath = "//label[text() = 'To Country']/..//a/span")
+    private WebElement toCountryDiv;
+
 
     public HomePage() {
     }
@@ -29,6 +42,10 @@ public class HomePage extends BaseClass {
         PageFactory.initElements(driver, this);
 
     }
+    public HomePage clickVisaContainerButton(){
+        visaContainerButton.click();
+        return new HomePage(driver);
+    }
 
     private HomePage setFromCountryField(String fromCountry) {
         this.fromCountryField.sendKeys(fromCountry);
@@ -36,6 +53,7 @@ public class HomePage extends BaseClass {
     }
 
     public HomePage selectFromCountryField(String fromCountry) {
+        fromCountryDiv.click();
         setFromCountryField(fromCountry);
         this.selectFromCountry.click();
         return this;
@@ -47,8 +65,15 @@ public class HomePage extends BaseClass {
     }
 
     public HomePage selectToCountryField(String toCountry) {
-        setFromCountryField(toCountry);
+        toCountryDiv.click();
+        setToCountryField(toCountry);
         this.selectToCountry.click();
+        return this;
+    }
+
+    public HomePage setDate(){
+        dateField.click();
+        dateField.sendKeys("16/04/2020");
         return this;
     }
 

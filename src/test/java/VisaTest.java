@@ -15,8 +15,10 @@ public class VisaTest {
 
         String actualResult = baseClass
                 .openHomePage()
+                .clickVisaContainerButton()
                 .selectFromCountryField(fromCountry)
                 .selectToCountryField(toCountry)
+                .setDate()
                 .clickSubmitButton()
                 .setFirstName(firstName)
                 .setLastName(lastName)

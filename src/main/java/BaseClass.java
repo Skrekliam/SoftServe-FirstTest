@@ -18,7 +18,7 @@ public class BaseClass {
 
     public void beforeTest() {
 
-        System.setProperty("webdriver.chrome.driver", "D:\\net.phptravels\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
