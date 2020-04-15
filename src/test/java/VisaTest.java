@@ -9,11 +9,15 @@ public class VisaTest {
         String firstName = "Andrew",
                 lastName = "Worski",
                 email = "worski123@gmail.com",
-                phone = "12321312";
+                phone = "12321312",
+                fromCountry = "Ukraine",
+                toCountry = "Poland";
 
         String actualResult = baseClass
                 .openHomePage()
-                .goToVisaPage()
+                .selectFromCountryField(fromCountry)
+                .selectToCountryField(toCountry)
+                .clickSubmitButton()
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setEmail(email)
